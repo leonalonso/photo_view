@@ -467,7 +467,12 @@ class _PhotoViewState extends State<PhotoView> {
 
   @override
   Widget build(BuildContext context) {
-    return LayoutBuilder(
+    return @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.transparent
+      body:
+      LayoutBuilder(
       builder: (
         BuildContext context,
         BoxConstraints constraints,
@@ -522,6 +527,7 @@ class _PhotoViewState extends State<PhotoView> {
                 errorBuilder: widget.errorBuilder,
               );
       },
+      ),
     );
   }
 }
