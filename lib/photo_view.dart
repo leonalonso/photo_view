@@ -467,10 +467,8 @@ class _PhotoViewState extends State<PhotoView> {
 
   @override
   Widget build(BuildContext context) {
-    return @override
-  Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.transparent
+      backgroundColor: Colors.transparent,
       body:
       LayoutBuilder(
       builder: (
